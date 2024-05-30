@@ -2,7 +2,6 @@ import os
 
 lista = []
 
-
 while True:
     escolha = input('Digite uma opção: [i]nserir [l]istar [a]pagar: ')
     
@@ -10,7 +9,6 @@ while True:
         os.system('cls')
         produto = input('O que deseja inserir: ')
         lista.append(produto)
-        
         
     elif escolha.lower() == 'l':
         os.system('cls')
@@ -38,5 +36,3 @@ while True:
                 print('Digite um número inteiro. ')
             except Exception:
                 print('Erro desconhecido')
-
-            #os.system('cls')
