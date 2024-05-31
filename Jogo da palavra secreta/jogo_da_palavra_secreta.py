@@ -5,8 +5,6 @@ letras_corretas = ''
 num_tentativas = 0
 
 while True:
-
-
     letra_digitada = input('Digite uma letra: ').lower()
     num_tentativas += 1
 
